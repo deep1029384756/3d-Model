@@ -1,0 +1,34 @@
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+   // background-color: rgb(232, 32, 32);
+    canvas{
+        margin: 0;
+        padding: 0;
+     //   z-index: 100;
+        position: sticky;
+        top:0;
+        cursor: progress;
+    }
+}
+
+//sections
+section{
+    z-index: 99;
+    height: 90vh;
+    width: 100vw;
+}
+.s1{
+    background-image: url("../assets/back.jpg");
+    height:60vh
+}
+.s2{
+   background-image: url("../assets/back2.jpg");
+    height:1050vh;
+    position: sticky;
+}
+.s6{
+   background-image: url("../assets/back3.jpg");
+    color: white;
+}
